@@ -32,9 +32,12 @@ defaults:
     values:
       image: true
 
+languages: ["en", "ja"]
+
 # Build settings
 theme: minima
-# plugins:
+plugins:
+  - jekyll-multiple-languages-plugin
 # - jekyll-feed
 
 # Exclude from processing.
